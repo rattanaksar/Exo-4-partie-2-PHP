@@ -10,6 +10,7 @@
     <h1>Exo 4 : Les conditions</h1>
     <h4>L'échelle de Richter est un outil de mesure qui permet de définir la magnitude de moment d'un tremblement de terre. Cette échelle va de 1 à 9.
     Créer une variable magnitude. Selon la valeur de magnitude, afficher la phrase correspondante.</h4>
+    <p>
     <?php
    $richter = 5;
    switch ($richter) {
@@ -44,5 +45,6 @@
            echo("Valeur inconnue");
    }
     ?>
+    </p>
 </body>
 </html>
